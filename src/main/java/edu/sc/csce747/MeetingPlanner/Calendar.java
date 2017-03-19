@@ -20,7 +20,7 @@ public class Calendar {
 		 */
 		occupied = new ArrayList<ArrayList<ArrayList<Meeting>>>();
 		
-		for(int i=0;i<=13;i++){
+		for(int i=0;i<=12;i++){
 			// Initialize month
 			occupied.add(new ArrayList<ArrayList<Meeting>>());
 			for(int j=0;j<32;j++){
@@ -82,7 +82,7 @@ public class Calendar {
 			throw new TimeConflictException("Day does not exist.");
 		}
 
-		if(mMonth < 1 || mMonth >= 12){
+		if(mMonth < 1 || mMonth > 12){
 			throw new TimeConflictException("Month does not exist.");
 		}
 
