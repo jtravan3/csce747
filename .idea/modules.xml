@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/csce747meetingplanner.iml" filepath="$PROJECT_DIR$/csce747meetingplanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSCE747.iml" filepath="$PROJECT_DIR$/CSCE747.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coffeemaker/coffeemaker.iml" filepath="$PROJECT_DIR$/coffeemaker/coffeemaker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/meetingplanner/meetingplanner.iml" filepath="$PROJECT_DIR$/meetingplanner/meetingplanner.iml" />
     </modules>
   </component>
 </project>
